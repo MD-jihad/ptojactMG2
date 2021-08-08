@@ -1,0 +1,106 @@
+@media screen and (max-width:800px) {
+   .head{
+       width: 338px;
+       
+       
+    }
+    h4 {
+        margin: 0px;
+        
+        animation: type 9s infinite steps(500);
+        
+        white-space: nowrap;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 84ch;
+    }
+    @keyframes type {
+        0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+    .container{
+        width: 120px;
+        height:1102px;
+
+        
+    }
+    .container .img1 img{
+        width: 50px;
+        height: 50px;
+    }
+  .container  .img2 img {
+        width: 50px;
+        height: 50px;
+    }
+    .container .img3 img {
+        width: 50px;
+        height: 50px;
+    }
+    .container .img4 img {
+        width: 50px;
+        height: 50px;
+    }
+    .container .img1 {
+        margin: 29px 0px 4px 28px;
+    }
+    .container .img2  {
+        margin: 29px 0px 4px 28px;
+    }
+    .container .img3 {
+        margin: 29px 0px 4px 28px;
+    }
+    .container .img4  {
+        margin: 29px 0px 4px 28px;
+    }
+    .container2{
+        width: 300px;
+        height: 800px;
+        overflow: auto;
+        margin: 2px 0px 0px 1px;
+        
+        
+    }
+    .danger{
+        width: 212px;
+    }
+    .container3{
+        width: 300px;
+        margin:0px 0px 0px 1px;
+    }
+    .container2 .box1 {
+        width: 165px;
+        height: 180px;
+        background-color: crimson;
+        float: none;
+        
+        margin: 0px 241px 0px 27px;
+    }
+    .container2 .box2 {
+        width: 165px;
+        height: 180px;
+        background-color: crimson;
+        overflow:auto;
+        margin:126px 241px 0px 27px;
+    }
+    .container2 .box1 img {
+        width: 80px;
+        height: 80px;
+        margin:43px  ;
+    }
+    .container2 .box2 img {
+        width: 80px;
+        height: 80px;
+        margin: 43px;
+    }
+    .container2 .pra1{
+        margin: -268px 208px 0px 32px;
+        width: 159px;
+    }
+    .container2 .pra2{
+        margin: 20px 208px 0px 32px;
+        width: 159px;
+    }
+}

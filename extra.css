@@ -1,0 +1,122 @@
+.container{
+    width: 200px;
+    height: 668px;
+    background-color: cornsilk;
+    float: left;
+}
+.danger{
+    
+    overflow: hidden;
+    
+}
+.container2{
+    width: 1302px;
+    height: 360px;
+    background-color: #FFFFE0;
+    
+    margin: -14px 0px 0px 3px;
+}
+.head{
+    width: 1503px;
+    height: 30px;
+    background-color: rgb(250, 250, 210);
+    margin: 0px;
+    border: 2px solid black;
+    overflow: hidden;
+    flex-direction: column;
+    }
+.container3{
+    background-color: rgb(250, 250, 211);
+    width: 1502px;
+    height: 305px;
+    
+}
+h4{ 
+    margin: 0px ;
+    color: black;
+ /*   display: flex;*/
+    justify-content: center;
+    animation: type 11s infinite steps(90);
+    
+    white-space: nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 84ch;
+    
+    
+}
+@keyframes type{
+0% {
+    transform: translateX(70%);
+}
+100% {
+    transform: translateX(-10%);
+}
+}
+.container .img1{
+    margin: 29px 0px 4px 49px;
+}
+.container .img2 {
+    margin: 33px 0px 4px 49px;
+}
+.container .img3 {
+    margin: 33px 0px 4px 49px;
+}
+.container .img4 {
+    margin: 33px 0px 4px 49px;
+}
+.container2 .box1{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    float: left;
+    margin: 0px 338px 0px 210px;
+}
+.container2 .box2{
+     width: 200px;
+     height: 200px;
+     background-color: crimson;
+     overflow: hidden;
+     margin-top: 0px;
+}
+.container2 .box1 img{
+    margin: 38px 0px 0px 47px;
+    
+}
+.container2 .box2 img{
+    margin: 38px 0px 0px 47px;
+}
+.container2 .pra1{
+    width: 200px;
+    height: 40px ;
+    background-color: palegoldenrod;
+    float: left;
+    margin: 8px 337px 0px 211px;
+    border-radius: 12px;
+    transition: background-color 1s ease-out ;
+    
+}
+.container2 .pra1:hover{
+    background-color: lavenderblush;
+    color: #000;
+}
+.container2 .pra2{
+ width: 200px;
+ height: 40px;
+ overflow: hidden;
+ background-color: palegoldenrod;
+ margin-top: 8px;
+ border-radius: 12px;
+ transition: background-color 1s ease-out;
+}
+.container2 .pra2:hover{
+    background-color: lavenderblush;
+    color: black;
+}
+.container2 .pra1 p{
+    margin: 10px;
+   
+}
+.container2 .pra2 p{
+    margin: 10px;
+    
+}
